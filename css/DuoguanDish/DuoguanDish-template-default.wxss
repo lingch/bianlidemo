@@ -1,0 +1,29 @@
+/* darkblue 请访问 saxcx.com 进行配置后台 或联系微信 YNXHDNXY 咨询。*/
+page{
+  /* 主色调 */
+  --mColor:#312e43;
+  /* 主色调rgb */
+  --mColorRgb:49,46,67;
+  /* 比主色调稍浅 */
+  --mColorLight:#3b3750;
+
+  /* 消费记录渐变 */
+  --payBalanceBg:linear-gradient(to bottom,#312e43,#4b456b);
+  /* 会员卡背景渐变 */
+  --vipCardBg:linear-gradient(to right,#4f4974,#8780b1);
+  /* 会员卡投影 */
+  --vipCardShdo:108, 100, 148;
+}
+
+/************ color **************/
+.green,.ress-nav-active,.ress-side-active,.filter-item-active,.sp-item-i.active{ color: #dc624e;}
+.ress-nav-active::before{ border-bottom-color:#dc624e;}
+.sp-item-i.active::before{ border-color:#dc624e;}
+.count-btn,.cart-circle,.comm-name-score,.other-msg text,.my-code,button[type="primary"]{ background:#dc624e;}
+.button-hover[type="primary"],button[type="primary"][disabled],button[type="primary"][loading]{background: #3b3750;}
+
+.red{color: #FF6B6C;}
+.counts,.count-spec-c{ background:#FF6B6C;}
+
+.ruzhu,.go_home{background: rgba(49,46,67, 0.3);}
+page .wx-radio-input-checked{color: #312e43;background: currentColor !important;border-color:currentColor !important;}
